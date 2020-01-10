@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Explica.me: Curso SAP Analytics Cloud`,
-    description: `Material Auxiliar do curso SAP Analytics Cloud`
+    description: `Material Auxiliar do curso SAP Analytics Cloud`,
     author: `Explica.me`,
     siteUrl: `https://expli.me`,
     social: {
