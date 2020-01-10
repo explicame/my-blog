@@ -44,6 +44,7 @@ function SubscribeForm () {
           }
         >
           {message}
+          {status === 'success' ? ' Mandamos o link para o seu e-mail.' : ''}
         </span>
       </div>
       <button
