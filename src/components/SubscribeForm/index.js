@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 import './styles.css';
 
-function SubscribeForm() {
+function SubscribeForm () {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState('');
   const [message, setMessage] = useState('');
@@ -21,11 +21,10 @@ function SubscribeForm() {
   return (
     <form className="subscribe-form">
       <span className="subscribe-form__title">
-        Subscribe for latest updates
+        Cadastre o seu e-mail
       </span>
       <p className="subscribe-form__text">
-        Sign Up for our newsletter and get notified when we publish new articles
-        for free!
+        Cadastre o seu e-mail para podermos mandar o material auxiliar do curso SAP Analytics Cloud.
       </p>
       <div className="subscribe-form__content">
         <input
@@ -33,7 +32,7 @@ function SubscribeForm() {
           type="email"
           onChange={handleChange}
           value={email}
-          placeholder="example@domain.com"
+          placeholder="seunome@dominio.com"
           required
         />
         <span
@@ -52,7 +51,7 @@ function SubscribeForm() {
         type="submit"
         onClick={handleSubmit}
       >
-        Subscribe
+        Cadastrar
       </button>
     </form>
   );

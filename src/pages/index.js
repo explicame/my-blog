@@ -5,12 +5,12 @@ import Layout from '../components/layout';
 import SubscribeForm from '../components/SubscribeForm';
 import { rhythm } from '../utils/typography';
 
-function BlogIndex({ data, location }) {
+function BlogIndex ({ data, location }) {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMarkdownRemark.edges;
   return (
     <Layout location={location} title={siteTitle}>
-      {posts.map(({ node }) => {
+      {/* {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
         return (
           <div key={node.fields.slug}>
@@ -31,7 +31,7 @@ function BlogIndex({ data, location }) {
             />
           </div>
         );
-      })}
+      })} */}
       <SubscribeForm />
     </Layout>
   );

@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Welcome to my blog`,
-    author: `Kyle Mathews`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Explica.me: Curso SAP Analytics Cloud`,
+    author: `Explica.me`,
+    siteUrl: `https://expli.me`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `explicame`,
     },
   },
   plugins: [
@@ -77,7 +77,7 @@ module.exports = {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
         endpoint:
-          'https://wolox.us3.list-manage.com/subscribe/post?u=dc99a4a14838b86f3af934503&amp;id=7f9b896200',
+          'https://expli.us4.list-manage.com/subscribe/post?u=1474271c1695b8692a6fbca26&amp;id=bd49c71ad4',
       },
     },
   ],
